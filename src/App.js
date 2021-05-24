@@ -2,7 +2,11 @@ import Jokes from './components/Jokes';
 import './App.css';
 
 function App() {
-	return <Jokes />;
+	return (
+		<div className='App'>
+			<Jokes />
+		</div>
+	);
 }
 
 export default App;
